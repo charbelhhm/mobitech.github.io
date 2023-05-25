@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>MobiTech</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="images/logo2.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="header">
+        <a href="index.html" class="logo"><img src="images/logo2.png" width="120px" height="110px"></a>
+    </div>
+    <div class="topnav">
+        <a href="index.html" class="active">HOME</a>
+        <a href="mobile.html">MOBILE</a>
+        <a href="contactus.html" style="float:right">CONTACT US</a>
+    </div>
+	
+    <div class="row">
+        <div class="leftcolumn">
+            <div class="card">
+                <div class="myImage" style="height:100%;">
+                    <div class="slideshow-container">
+                        <div class="mySlides">
+                            <img src="images/002 (1).jpg" style="width:100%; height: 450px">
+                            <div class="text">Xiaomi-13</div>
+                        </div>
+                        <div class="mySlides">
+                            <img src="images/003 (1).jpg" style="width:100%; height: 450px">
+                            <div class="text">iphone14</div>
+                        </div>
+                        <div class="mySlides">
+                            <img src="images/001.jpg" style="width:100%; height: 450px">
+                            <div class="text">Samsung s23</div>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+            </div>
+            <div class="card" style="height: 350px">
+                <h2>New Arrival</h2>
+                <hr>
+                <div class="responsive">
+                    <div class="gallery">
+                        <a target="_blank" href="https://www.apple.com/shop/product/MJWY3AM/A/magsafe-battery-pack">
+                            <img src="images/apple-battery-pack-web-2201-2-600x600-1.jpg"
+                                style="width:100%; height:100%">
+                        </a>
+                        <div class="desc">Apple Battery<br><b>$100.00</b></div>
+                    </div>
+                </div>
+                <div class="responsive">
+                    <div class="gallery">
+                        <a target="_blank"
+                            href="https://www.apple.com/shop/buy-airpods/airpods-max/green?fnode=76d9cad067f987ee6d357efe2ef605be89e6c8acd9e0638d546c5fbf5dc67ff4da3f540cd193e9255b9e5b3b032cfc4d5eb91ba7b450efbbe5c1c20bcc4ac869964cb458850585998f2e3326796357e068b92fff5586b05ec4c42bf17f7ce639542ad1280f25e8a2423921bffe9cecc7b57a7e37ed1a38003e8063825d1c59b2">
+                            <img src="images/apple-headsets-earphones-apple-airp
+
+ods-max-28673503756420_grande.jpg" style="width:100%; height:100%">
+                        </a>
+                        <div class="desc">Apple Headsets<br><b>$550.00</b></div>
+                    </div>
+                </div>
+				
+                <div class="responsive">
+                    <div class="gallery">
+                        <a target="_blank" href="https://www.apple.com/shop/product/MHXH3AM/A/magsafe-charger">
+                            <img src="images/41Mx1woAMYL.jpg" style="width:100%; height:100%">
+                        </a>
+                        <div class="desc">Apple MagSafe<br><b>$40.00</b></div>
+                    </div>
+                </div>
+                <div class="responsive">
+                    <div class="gallery">
+                        <a target="_blank" href="https://www.beatsbydre.com/headphones/solo3-wireless?sku=MX432">
+                            <img src="images/pc-solo3-black-thrqtr-left.jpg" style="width:100%; height:100%">
+                        </a>
+                        <div class="desc">Beats Dr.Dre<br><b>$200.00</b></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="rightcolumn">
+            <div class="card">
+                <br>
+                <br>
+                <br>
+                <h2>DISCOUNTS</h2>
+                <hr>
+                <div class="myImage">
+                    <a  href="images/Screenshot 2023-04-14 180213.png">
+                        <img src="images/Blackview-A53-Pro-New-Smartphone-4GB-64GB-6-5-Inch-Android-12-Cellphone-Octa-Core-Mobile.jpg_640x640.jpg"
+                            style="width:100%; height:100%"></a>
+                </div>
+                <hr>
+                <a  href="images/Screenshot 2023-04-14 180814.png">
+                    <div class="myImage"><img src="./images/redmi-k50-ultra-lebanon.jpg"
+                            style="width:100%; height:100%"></div>
+                    <hr>
+                    <a  href="images/Screenshot 2023-04-14 181820.png">
+                        <div class="myImage"><img
+                                src="images/10000mahmipowerbank3ultracompact-6188ec4f60550-medium.webp"
+                                style="width:100%; height:100%"></div>
+                    </a>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <a  class="media media-facebook"><img src="images/logo-facebookpng-32202.png" style="width:20px; height: 20px"></a>
+        <a  class="media media-instagram"><img src="images/logo-ig-png-32473.png"
+                style="width:20px; height: 20px"></a>
+        <a  class="media media-twitter"><img src="images/logo-twitter-png-5860.png" style="width:20px; height: 20px"></a>
+        <p>~ Charbel Hajj Moussa ~</p>
+    </div>
+    <script>
+        var myIndex = 0;
+        carousel();
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if
+
+                (myIndex > x.length) {
+                myIndex = 1;
+            }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carousel, 2000); // Change image every 2 seconds
+        }
+    </script>
+</body>
+
+</html>
